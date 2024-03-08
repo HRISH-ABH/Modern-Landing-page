@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100vh;
+  width: 100%;
+  /* background-color: black; */
+}
+#back {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(59, 36, 36); */
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#top {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(0, 0, 0); */
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+
+}
+
+#working-area{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1920px;
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 1px solid red; */
+}
+#nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 45px;
+}
+
+#nav-left ,#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#nav a{
+    pointer-events: all;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0%,-50%);
+}
+
+
+#hero-left{
+    min-width: 50%;
+    /* height: 100px; */
+    /* background-color: yellowgreen; */
+}
+#hero-right{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 25%;
+    /* height: 100px; */
+    /* background-color: rgb(109, 153, 21); */
+    width: 17%;
+}
+
+#hero-right p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+ 
+   
+}
+#hero-right p:nth-child(3){
+    /* color: red; */
+    margin-bottom: 70px;
+}
+
+#hero-right #img{
+    width: 100%;
+    height: 170px;
+    background-image: url(https://images.unsplash.com/photo-1552234994-66ba234fd567?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#hero-left #elem h1{
+    line-height: 0.9;
+    font-family: "kajiro";
+    color: white;
+    font-weight: 100;
+    font-size: 12vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#hero-left #elem h1:nth-child(1){
+    top: 0;
+}
+
+#hero-left #elem{
+    height: 10vw;
+    /* background-color: red; */
+    overflow: hidden;
+    position: relative;
+}
+#hero-left button{
+    margin-top: 1.6vw;
+    padding: 0.5vw 1.5vw;
+    font-size: 2.5vw;
+    font-family: "kajiro";
+    pointer-events: all;
+    
+}
+
