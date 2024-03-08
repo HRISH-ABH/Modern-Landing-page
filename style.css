@@ -137,7 +137,9 @@ body {
     top: 100%;
     left: 0;
 }
-
+#hero-left h1{
+    font-size: 45px;
+}
 #hero-left #elem h1:nth-child(1){
     top: 0;
 }
